@@ -1,0 +1,40 @@
+
+
+.pagina-alterar {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: grey;
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    input {
+        width: 300px;
+        height: 30px;
+        border-radius: 5px;
+        padding: 5px;
+        font: 500 16px 'Arial';
+    }
+
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    button {
+        width: 5%;
+        font: 400 14px Arial;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}

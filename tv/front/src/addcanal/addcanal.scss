@@ -1,0 +1,49 @@
+.pagina-cadastrar {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: grey;
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .inputs{
+        display: flex;
+        justify-content : center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .aberto{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font: 700 18px 'Arial';
+    }
+
+    input {
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+        padding: 5px;
+        font: 500 16px 'Arial';
+    }
+        
+    
+
+    button {
+        width: 5%;
+        font: 400 14px Arial;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
